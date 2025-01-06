@@ -1,5 +1,7 @@
 # Real-Time Chat Application
 
+**[Live Link: https://chatapp-by-aman.onrender.com/](https://chatapp-by-aman.onrender.com/)**
+
 Welcome to my real-time chat application, built from scratch to provide a seamless and secure messaging experience. The application is designed to handle real-time communication between users, with a focus on security, scalability, and user-friendly design.
 
 ## Features
@@ -24,16 +26,21 @@ Welcome to my real-time chat application, built from scratch to provide a seamle
 
 ## How It Works
 
-1. *User Registration and Login*: 
+1. *User Registration and Login*:
+
    - Users can register with a unique username and password.
    - Passwords are hashed using bcrypt.js before being stored in MongoDB.
    - Upon successful login, a JWT token is issued, which is used for secure session management.
 
-2. *Real-Time Messaging*: 
+2. *Real-Time Messaging*:
+
    - Users can send and receive messages in real time.
    - Messages are broadcast to all connected users using Socket.io.
    - Chat history is saved in MongoDB, allowing users to view past conversations.
 
 3. *Security*:
+
    - JWT tokens ensure that only authenticated users can access the chat features.
    - Passwords are never stored in plain text, ensuring user security.
+
+
